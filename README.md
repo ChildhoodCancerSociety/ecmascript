@@ -1,4 +1,6 @@
-# Airbnb JavaScript Style Guide() {
+# CCS JavaScript Style Guide() {
+
+> forked from [Airbnb's Style Guide](https://github.com/airbnb/javascript)
 
 *A mostly reasonable approach to JavaScript*
 

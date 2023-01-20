@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-airbnb-base",
+  "name": "eslint-config-ccs-base",
   "version": "15.0.0",
-  "description": "Airbnb's base JS ESLint config, following our styleguide",
+  "description": "CCS's base JS ESLint config, following our styleguide, forked from Airbnb.",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
@@ -39,6 +39,8 @@
     "eslintconfig",
     "config",
     "airbnb",
+    "ccs",
+    "childhood cancer society",
     "javascript",
     "styleguide",
     "es2015",

@@ -10,8 +10,8 @@ jobs:
       matrix:
         package:
           - '..'
-          - eslint-config-airbnb
-          - eslint-config-airbnb-base
+          - eslint-config-ccs
+          - eslint-config-ccs-base
 
     defaults:
       run:

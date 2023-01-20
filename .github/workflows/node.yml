@@ -28,11 +28,11 @@ jobs:
           - 8
           - 7
         package:
-          - eslint-config-airbnb-base
+          - eslint-config-ccs-base
         exclude:
           - node-version: 10
             eslint: 8
-            package: eslint-config-airbnb-base
+            package: eslint-config-ccs-base
 
     defaults:
       run:
@@ -65,7 +65,7 @@ jobs:
           - 8
           - 7
         package:
-          - eslint-config-airbnb
+          - eslint-config-ccs
         react-hooks:
           - 4
 
@@ -99,7 +99,7 @@ jobs:
           - 8
           - 7
         package:
-          - eslint-config-airbnb-base
+          - eslint-config-ccs-base
 
     defaults:
       run:
@@ -130,7 +130,7 @@ jobs:
           - 8
           - 7
         package:
-          - eslint-config-airbnb
+          - eslint-config-ccs
         react-hooks:
           - 4
 
