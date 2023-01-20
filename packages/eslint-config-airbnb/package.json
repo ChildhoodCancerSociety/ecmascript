@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-ccs",
+  "name": "eslint-config-airbnb",
   "version": "19.0.4",
-  "description": "CCS's ESLint config, following our styleguide, forked from Airbnb",
+  "description": "Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
@@ -24,21 +24,19 @@
     "pretest": "npm run --silent lint",
     "test": "npm run --silent tests-only",
     "link:eslint": "cd node_modules/eslint && npm link --production && cd -",
-    "pretravis": "npm run link:eslint && cd ../eslint-config-ccs-base && npm link --no-save eslint && npm install && npm link && cd - && npm link --no-save eslint-config-ccs-base",
+    "pretravis": "npm run link:eslint && cd ../eslint-config-airbnb-base && npm link --no-save eslint && npm install && npm link && cd - && npm link --no-save eslint-config-airbnb-base",
     "travis": "npm run --silent tests-only",
-    "posttravis": "npm unlink --no-save eslint-config-ccs-base eslint >/dev/null &"
+    "posttravis": "npm unlink --no-save eslint-config-airbnb-base eslint >/dev/null &"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/childhoodcancersociety/ecmascript"
+    "url": "https://github.com/airbnb/javascript"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
     "airbnb",
-    "ccs",
-    "childhood cancer society",
     "javascript",
     "styleguide",
     "es2015",
@@ -66,9 +64,9 @@
   "bugs": {
     "url": "https://github.com/airbnb/javascript/issues"
   },
-  "homepage": "https://github.com/childhoodcancersociety/ecmascript",
+  "homepage": "https://github.com/airbnb/javascript",
   "dependencies": {
-    "eslint-config-ccs-base": "^15.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "object.entries": "^1.1.5"
   },
   "devDependencies": {

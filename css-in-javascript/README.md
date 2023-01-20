@@ -1,6 +1,4 @@
-# CCS CSS-in-JavaScript Style Guide
-
-> forked from [Airbnb's guide](https://github.com/airbnb/javascript/tree/master/css-in-javascript)
+# Airbnb CSS-in-JavaScript Style Guide
 
 *A mostly reasonable approach to CSS-in-JavaScript*
 
