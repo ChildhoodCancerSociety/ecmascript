@@ -574,17 +574,17 @@ Other Style Guides
 ## Strings
 
   <a name="strings--quotes"></a><a name="6.1"></a>
-  - [6.1](#strings--quotes) Use single quotes `''` for strings. eslint: [`quotes`](https://eslint.org/docs/rules/quotes)
+  - [6.1](#strings--quotes) Use double quotes `""` for strings. eslint: [`quotes`](https://eslint.org/docs/rules/quotes)
 
     ```javascript
     // bad
-    const name = "Capt. Janeway";
+    const name = 'Capt. Janeway';
 
     // bad - template literals should contain interpolation or newlines
     const name = `Capt. Janeway`;
 
     // good
-    const name = 'Capt. Janeway';
+    const name = "Capt. Janeway";
     ```
 
   <a name="strings--line-length"></a><a name="6.2"></a>
@@ -4013,5 +4013,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Amendments
 
 We encourage you to fork this guide and change the rules to fit your team’s style guide. Below, you may list some amendments to the style guide. This allows you to periodically update your style guide without having to deal with merge conflicts.
+
+  - [6.1](#strings--quotes) Use ~~single~~ double quotes for everything
 
 # };
