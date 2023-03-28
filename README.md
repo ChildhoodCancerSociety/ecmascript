@@ -1,8 +1,8 @@
-# Airbnb JavaScript Style Guide() {
+# Childhood Cancer Society ECMAScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
+> Full credit to [Airbnb](https://github.com/airbnb/javascript), the source of this fork
 
-> **Note**: this guide assumes you are using [Babel](https://babeljs.io), and requires that you use [babel-preset-airbnb](https://npmjs.com/babel-preset-airbnb) or the equivalent. It also assumes you are installing shims/polyfills in your app, with [airbnb-browser-shims](https://npmjs.com/airbnb-browser-shims) or the equivalent.
+*A mostly reasonable approach to ECMAScript*
 
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb-base.svg)](https://www.npmjs.com/package/eslint-config-airbnb-base)
