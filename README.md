@@ -588,7 +588,7 @@ Other Style Guides
     ```
 
   <a name="strings--line-length"></a><a name="6.2"></a>
-  - [6.2](#strings--line-length) Strings that cause the line to go over 160 characters should not be written across multiple lines using string concatenation.
+  - [6.2](#strings--line-length) Strings that cause the line to go over 80 characters should not be written across multiple lines using string concatenation.
 
     > Why? Broken strings are painful to work with and make code less searchable.
 
@@ -4017,6 +4017,6 @@ We encourage you to fork this guide and change the rules to fit your team’s st
 
   - [6.1](#strings--quotes) Use ~~single~~ double quotes for everything
 
-  - [19.13](#whitespace--max-len) Avoid having lines of code that are longer than ~~100~~ 160 characters (including whitespace)
+  - [19.13](#whitespace--max-len) Avoid having lines of code that are longer than ~~100~~ 80 characters (including whitespace)
 
 # };
