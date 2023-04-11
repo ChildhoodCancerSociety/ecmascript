@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript"
+    "url": "https://github.com/ChildhoodCancerSociety/ecmascript"
   },
   "keywords": [
     "eslint",
@@ -42,7 +42,7 @@
     "es2017",
     "es2018"
   ],
-  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
+  "author": "Ibrahim Saberi <georgeipsum@gmail.com> (https://twitter.com/ibubeeboo)",
   "contributors": [
     {
       "name": "Jake Teton-Landis",
@@ -64,7 +64,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/ecmascript/issues"
+    "url": "https://github.com/ChildhoodCancerSociety/ecmascript/issues"
   },
   "homepage": "https://github.com/ChildhoodCancerSociety/ecmascript",
   "dependencies": {
@@ -94,9 +94,13 @@
     "tape": "^5.6.3"
   },
   "peerDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
