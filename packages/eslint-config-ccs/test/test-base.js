@@ -1,14 +1,14 @@
-import fs from 'fs';
-import path from 'path';
-import test from 'tape';
+import fs from "fs";
+import path from "path";
+import test from "tape";
 
-const base = require('../base');
+const base = require("../base");
 
 const files = { base };
 
-const rulesDir = path.join(__dirname, '../rules');
+const rulesDir = path.join(__dirname, "../rules");
 fs.readdirSync(rulesDir).forEach((name) => {
-  if (name === 'react.js' || name === 'react-a11y.js') {
+  if (name === "react.js" || name === "react-a11y.js") {
     return;
   }
 
@@ -23,13 +23,13 @@ Object.keys(files).forEach((name) => {
     t.plan(2);
 
     // scan plugins for react and fail if it is found
-    const hasReactPlugin = Object.prototype.hasOwnProperty.call(config, 'plugins')
-      && config.plugins.indexOf('react') !== -1;
-    t.notOk(hasReactPlugin, 'there is no react plugin');
+    const hasReactPlugin = Object.prototype.hasOwnProperty.call(config, "plugins")
+      && config.plugins.indexOf("react") !== -1;
+    t.notOk(hasReactPlugin, "there is no react plugin");
 
     // scan rules for react/ and fail if any exist
     const reactRuleIds = Object.keys(config.rules)
-      .filter((ruleId) => ruleId.indexOf('react/') === 0);
-    t.deepEquals(reactRuleIds, [], 'there are no react/ rules');
+      .filter((ruleId) => ruleId.indexOf("react/") === 0);
+    t.deepEquals(reactRuleIds, [], "there are no react/ rules");
   });
 });
