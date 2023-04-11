@@ -3,7 +3,7 @@
 const entries = require("object.entries");
 const { ESLint } = require("eslint");
 
-const baseConfig = require(".");
+const baseConfig = require("./index");
 const whitespaceRules = require("./whitespaceRules");
 
 const severities = ["off", "warn", "error"];
@@ -45,4 +45,7 @@ async function onlyErrorOnRules(rulesToError, config) {
   return errorsOnly;
 }
 
+// eslint-disable-next-line no-console
 onlyErrorOnRules(whitespaceRules, baseConfig).then((config) => console.log(JSON.stringify(config)));
+
+// module.exports = () => onlyErrorOnRules(whitespaceRules, baseConfig);

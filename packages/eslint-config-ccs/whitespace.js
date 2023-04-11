@@ -49,6 +49,6 @@ if (CLIEngine) {
 } else {
   const path = require("path");
   const { execSync } = require("child_process");
-
-  module.exports = JSON.parse(String(execSync(path.join(__dirname, "whitespace-async.js"))));
+  execSync(path.join(__dirname, "whitespace-async.js"), { stdio: "inherit" });
+  module.exports = {};
 }

@@ -7,7 +7,6 @@
     ".": "./index.js",
     "./base": "./base.js",
     "./hooks": "./hooks.js",
-    "./whitespace": "./whitespace.js",
     "./rules/react": "./rules/react.js",
     "./rules/react-a11y": "./rules/react-a11y.js",
     "./rules/react-hooks": "./rules/react-hooks.js",
