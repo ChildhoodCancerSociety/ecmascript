@@ -4,6 +4,10 @@
 
 This package provides Childhood Cancer Society's .eslintrc as an extensible shared config.
 
+## TODO
+
+Re-write tests to make them work with typescript
+
 ## Usage
 
 We export three ESLint configurations for your usage.
