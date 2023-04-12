@@ -6,7 +6,9 @@ This package provides Childhood Cancer Society's .eslintrc as an extensible shar
 
 ## TODO
 
-Re-write tests to make them work with typescript
+- Re-write tests to make them work with typescript
+- Move prettier rules to a completely separate package to not add the peerdep by default
+- Move ts rules to a completely separate package to not add the typescript peerdeps by default
 
 ## Usage
 
