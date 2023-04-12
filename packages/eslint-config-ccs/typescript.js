@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     "@typescript-eslint/eslint-plugin",
     "eslint-plugin-import"
-  ].map(require.resolve),
+  ],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",

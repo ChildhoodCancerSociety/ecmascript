@@ -4,7 +4,7 @@
 module.exports = {
   plugins: [
     "eslint-plugin-prettier"
-  ].map(require.resolve),
+  ],
   extends: [
     "plugin:prettier/recommended"
   ],
