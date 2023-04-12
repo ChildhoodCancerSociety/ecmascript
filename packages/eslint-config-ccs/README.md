@@ -6,7 +6,7 @@ This package provides Childhood Cancer Society's .eslintrc as an extensible shar
 
 ## TODO
 
-Re-write tests to make them work with typescript
+- Add VERY STRICT test cases to make sure tailwind ruleset works properly
 
 ## Usage
 

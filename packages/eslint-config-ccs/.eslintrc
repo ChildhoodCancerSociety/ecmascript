@@ -5,4 +5,7 @@
     // being JSON at some point, and I don't want to make big changes now.
     "comma-dangle": 0,
   },
+  "env": {
+    "es2020": true
+  }
 }

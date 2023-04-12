@@ -91,6 +91,7 @@
     "prettier": "^2.8.7",
     "react": ">= 0.13.0",
     "safe-publish-latest": "^2.0.0",
+    "tailwindcss": "^3.3.1",
     "tape": "^5.6.3"
   },
   "peerDependencies": {
