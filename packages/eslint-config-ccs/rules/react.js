@@ -227,7 +227,7 @@ module.exports = {
 
     // Prevent missing React when using JSX
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": 0,
 
     // Require render() methods to return something
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
@@ -319,7 +319,7 @@ module.exports = {
 
     // only .jsx files may have JSX
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    "react/jsx-filename-extension": ["error", { extensions: [".jsx"] }],
+    "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
 
     // prevent accidental JS comments from being injected into JSX as text
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
