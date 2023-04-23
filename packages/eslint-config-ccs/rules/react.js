@@ -219,11 +219,7 @@ module.exports = {
 
     // Prevent missing props validation in a React component definition
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-    "react/prop-types": ["error", {
-      ignore: [],
-      customValidators: [],
-      skipUndeclared: false
-    }],
+    "react/prop-types": 0,
 
     // Prevent missing React when using JSX
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
@@ -526,7 +522,7 @@ module.exports = {
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
     "react/function-component-definition": ["error", {
       namedComponents: ["function-declaration", "function-expression"],
-      unnamedComponents: "function-expression",
+      unnamedComponents: ["arrow-function"],
     }],
 
     // Enforce a new line after jsx elements and expressions
