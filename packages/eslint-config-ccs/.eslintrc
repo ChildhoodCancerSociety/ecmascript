@@ -4,5 +4,33 @@
     // disable requiring trailing commas because it might be nice to revert to
     // being JSON at some point, and I don't want to make big changes now.
     "comma-dangle": 0,
-  },
+    "object-curly-newline": 0,
+    "no-plusplus": 0,
+    "no-underscore-dangle": 0,
+    "global-require": 0,
+    "no-restricted-syntax": 0,
+    "no-labels": 0,
+    "no-shadow": 0,
+
+    // add eslint-import rules
+    "import/no-absolute-path": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": ["error", "ignorePackages", {
+      "js": "never",
+      "jsx": "never",
+      "ts": "never",
+      "tsx": "never"
+    }],
+
+    // add react rules
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-filename-extension": 0,
+    "react/require-default-props": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/button-has-type": 0,
+    "react/prop-types": 0,
+    "react/function-component-definition": [2, {
+      "namedComponents": "arrow-function"
+    }]
+  }
 }

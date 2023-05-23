@@ -34,8 +34,7 @@ module.exports = {
           "./tsconfig.json"
         ]
       },
-      node: {
-      },
+      node: {},
     }
   }
 };
