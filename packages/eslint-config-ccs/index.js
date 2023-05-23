@@ -7,6 +7,11 @@ module.exports = {
     "./rules/react",
     "./rules/react-a11y",
   ].map(require.resolve),
+  env: {
+    es2020: true,
+    browser: true,
+    node: true
+  },
   rules: {
     // base eslint overrides
     quotes: ["error", "double"],
@@ -51,7 +56,7 @@ module.exports = {
     "react/button-has-type": 0,
     "react/prop-types": 0,
     "react/function-component-definition": [2, {
-      "namedComponents": "arrow-function"
+      namedComponents: "arrow-function"
     }]
   },
   ignorePatterns: [

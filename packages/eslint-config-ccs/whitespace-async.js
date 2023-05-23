@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-const entries = require("object.entries");
 const { ESLint } = require("eslint");
 
 const baseConfig = require("./index");
@@ -24,9 +23,9 @@ async function onlyErrorOnRules(rulesToError, config) {
     useEslintrc: false,
     baseConfig: config
   });
-  const baseRules = (await cli.calculateConfigForFile(require.resolve("./"))).rules;
+  const baseRules = (await cli.calculateConfigForFile(require.resolve("./index"))).rules;
 
-  entries(baseRules).forEach((rule) => {
+  Object.entries(baseRules).forEach((rule) => {
     const ruleName = rule[0];
     const ruleConfig = rule[1];
     const severity = getSeverity(ruleConfig);

@@ -4,7 +4,7 @@ const { CLIEngine } = require("eslint");
 
 if (CLIEngine) {
   /* eslint no-inner-declarations: 0 */
-  const entries = require("object.entries");
+  const { entries } = Object;
   const whitespaceRules = require("./whitespaceRules");
 
   const baseConfig = require(".");

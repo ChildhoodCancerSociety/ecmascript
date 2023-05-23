@@ -28,8 +28,8 @@ Object.keys(files).forEach((name) => {
     t.notOk(hasReactPlugin, "there is no react plugin");
 
     // scan rules for react/ and fail if any exist
-    const reactRuleIds = Object.keys(config.rules)
-      .filter((ruleId) => ruleId.indexOf("react/") === 0);
+    const reactRuleIds = config && config.rules ? Object.keys(config.rules)
+      .filter((ruleId) => ruleId.indexOf("react/") === 0) : [];
     t.deepEquals(reactRuleIds, [], "there are no react/ rules");
   });
 });
